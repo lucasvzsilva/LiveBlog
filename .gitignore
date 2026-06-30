@@ -1,0 +1,29 @@
+# ===== .NET / backend =====
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+*.db-shm
+*.db-wal
+appsettings.Development.local.json
+
+# ===== Node / frontend =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+coverage/
+
+# ===== Env / secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.idea/
+*.log
