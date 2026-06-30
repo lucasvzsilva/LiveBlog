@@ -4,7 +4,11 @@ Ideia/conceito de Lucas Vaz (@lucasvzsilva).
 
 Rede social estilo Reddit: comunidades, posts, comentários aninhados e votos.
 
-Stack: .NET (Clean Architecture, MediatR, EF Core, JWT) + React (Vite, TS, Tailwind, TanStack Query, Zustand).
+Front-end React (sem backend — API mockada com MSW).
 
-- `backend/` — API .NET
-- `frontend/` — app React
+Stack: Vite + React 18 + TS, Tailwind, TanStack Query, Zustand, Axios, React Router, React Hook Form + Zod, MSW.
+
+```bash
+npm install
+npm run dev
+```
