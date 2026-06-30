@@ -7,8 +7,8 @@ import { useLogin } from '../hooks'
 
 // Zod define o schema; o mesmo schema valida em runtime E gera o tipo TS (z.infer).
 const schema = z.object({
-  email: z.string().email('email inválido'),
-  password: z.string().min(6, 'mínimo 6 caracteres'),
+  email: z.string().email('Email inválido'),
+  password: z.string().min(6, 'Mínimo 6 caracteres'),
 })
 type FormData = z.infer<typeof schema>
 

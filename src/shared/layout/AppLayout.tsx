@@ -25,19 +25,19 @@ export function AppLayout() {
                   }}
                   className="text-zinc-700 hover:text-orange-600"
                 >
-                  sair
+                  Sair
                 </button>
               </>
             ) : (
               <>
                 <NavLink to="/login" className="text-zinc-700 hover:text-orange-600">
-                  entrar
+                  Entrar
                 </NavLink>
                 <NavLink
                   to="/register"
                   className="rounded-full bg-orange-600 px-3 py-1 text-white hover:bg-orange-700"
                 >
-                  criar conta
+                  Criar conta
                 </NavLink>
               </>
             )}
